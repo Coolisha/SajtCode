@@ -172,7 +172,7 @@ export default {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 130vh;
+    height: 200vh;
     width: 95vw;
     margin: 0 auto;
 }
@@ -181,7 +181,7 @@ export default {
     margin-bottom: 1em;
     padding: 0 5px;
     line-height: 1.5em;
-    width: 30%;
+    width: 33%;
 }
 .referenca span{
     font-weight: bold;
@@ -199,10 +199,10 @@ export default {
 }
 @media (max-width: 610px) {
     .referenca{
-        width: 45%;
+        width: 50%;
     }
     .referenceWrapper{
-        height: 200vh;
+        height: 250vh;
     }
 }
 
@@ -211,7 +211,7 @@ export default {
         width: 100%;
     }
     .referenceWrapper{
-        height: 350vh;
+        height: 450vh;
     }
 }
 </style>
