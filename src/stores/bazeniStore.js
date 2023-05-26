@@ -41,7 +41,7 @@ export const useBazeniStore = defineStore('bazeni', {
     async login(username, password) {
       this.wrongInfo = null
       try {
-        let res = await axios.post('http://091v123.mars2.mars-hosting.com/API/auth/login' , {username, password})
+        let res = await axios.post('https://091v123.mars2.mars-hosting.com/API/auth/login' , {username, password})
       console.log(res);
       this.sid = res.data.sid
       document.cookie = `sid=${this.sid};expires=1200000;`
