@@ -36,6 +36,7 @@ export default{
                     <RouterLink to="/renoviranjeOdrzavanje"><li>Renoviranje i održavanje</li></RouterLink>
                     <RouterLink to="/reference"><li>Reference</li></RouterLink>
                     <RouterLink to="/downloads"><li>Downloads</li></RouterLink>
+                    <RouterLink to="/adminLogin"><li>Login</li></RouterLink>
                 </ul>
             </div>
         </div>

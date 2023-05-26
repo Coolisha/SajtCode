@@ -35,6 +35,7 @@ export default{
             document.querySelector(".akcNovWrapper").style.filter = "blur(20px)"
             document.querySelector(".novostiHeader").style.filter = "blur(20px)"
             document.querySelector(".akc").style.filter = "blur(20px)"
+            document.querySelector(".akcijeText").style.filter = "blur(20px)"
         },
         noBlur() {
             document.querySelector(".akcijeHeader").style.filter = "none"

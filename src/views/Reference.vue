@@ -179,6 +179,7 @@ export default {
 .referenca{
     font-family: Comfortaa;
     margin-bottom: 1em;
+    padding: 0 5px;
     line-height: 1.5em;
     width: 30%;
 }
@@ -198,14 +199,19 @@ export default {
 }
 @media (max-width: 610px) {
     .referenca{
-        width: 50%;
-        
+        width: 45%;
+    }
+    .referenceWrapper{
+        height: 200vh;
     }
 }
 
 @media (max-width: 480px) {
     .referenca{
         width: 100%;
+    }
+    .referenceWrapper{
+        height: 350vh;
     }
 }
 </style>
